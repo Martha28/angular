@@ -1,0 +1,11 @@
+<section class="track-container"
+fxLayout
+fxLayout.sm="column"
+fxLayoutAlign="center"
+fxLayoutGap="20px"
+
+>
+    <app-card *ngFor="let track of tracks" [track]="track" class="track-card"
+    (trackAddEvent)="addToPlayList($event)"
+    ></app-card>
+</section>

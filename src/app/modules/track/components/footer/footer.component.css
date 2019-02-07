@@ -1,0 +1,7 @@
+footer {
+    bottom: 0;
+    position: fixed;
+    margin: center;
+    background-color: aquamarine;
+    width:100%;
+}

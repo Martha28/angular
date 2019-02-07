@@ -1,0 +1,21 @@
+<header>
+  <nav>
+    <mat-toolbar color="accent">
+      <mat-toolbar-row>
+        <mat-icon>audiotrack</mat-icon>
+        <section class="txt-center">
+              <span id="branding" [routerLink]="['/']">Muzix</span>
+        </section>
+        <section class="txt-left">
+          <mat-chip-list>
+            <mat-icon class="navLinks" selected [routerLink]="['/']">home</mat-icon>
+            <!-- <mat-chip color="primary" class="navLinks" selected [routerLink]="['/']" >Home</mat-chip> -->
+            <mat-icon class="pipes">remove</mat-icon>
+            <mat-icon class="navLinks" selected [routerLink]="['/playlist']">favorite</mat-icon>
+            <!-- <mat-chip color="primary" class="navLinks" selected [routerLink]="['/playlist']">Playlist</mat-chip> -->
+          </mat-chip-list>
+        </section>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </nav>
+</header>
